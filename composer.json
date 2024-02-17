@@ -1,0 +1,29 @@
+{
+  "name": "comphp/events",
+  "type": "library",
+  "description": "Allows for the dynamic use of callbacks and events",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "timothy.mcclatchey",
+      "email": "timothy@commonphp.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Events\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Tests\\Events\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "comphp/service-management": "^0.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5.9"
+  }
+}

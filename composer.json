@@ -1,0 +1,22 @@
+{
+  "name": "comphp/events",
+  "description": "A lightweight, modular event dispatcher with PSR-14 compatibility and an object-oriented approach for registering and triggering events.",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Neuron\\Events\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NeuronTests\\Events\\": "test/"
+    }
+  },
+  "require": {
+    "php": "^8.4",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0"
+  }
+}
